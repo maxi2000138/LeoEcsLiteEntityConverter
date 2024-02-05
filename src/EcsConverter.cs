@@ -79,7 +79,7 @@ namespace AB_Utility.FromSceneToEntityConverter
             }
         }
 
-        private static void ConvertObject(GameObject obj, EcsWorld world)
+        public static void ConvertObject(GameObject obj, EcsWorld world)
         {
             var container = obj.GetComponent<ComponentsContainer>();
 #if DEBUG
